@@ -1,0 +1,25 @@
+{
+
+        "Print to console": {
+	 	"scope": "javascript",
+	    "prefix": "compfunc",
+	 	"body": [
+			"import React from 'react'",
+			"import { SafeAreaView, Text, StyleSheet} from 'react-native'",
+			"import Estilo from '../estilo'",
+			
+			"export default props => {",
+				"return (",
+			
+					"<SafeAreaView style={style.Display}>",
+							"<Text style={[Estilo.txtG, style.DisplayText]}>",
+							"{props.num}",
+							"</Text>",
+					"</SafeAreaView>",
+			
+			"     )",
+			"}",
+	 	],
+	 	"description": "Log output to console"
+	}
+}
